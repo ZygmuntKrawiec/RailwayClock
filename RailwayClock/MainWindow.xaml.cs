@@ -20,9 +20,13 @@ namespace RailwayClock
     /// </summary>
     public partial class MainWindow : Window
     {
+      /*All initialized clock elements are in the ClockElements.cs which contains partial class MainWindow.*/
+
         public MainWindow()
         {
             InitializeComponent();
+            combineElements();
+            runClock();
         }
     }
 }

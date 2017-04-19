@@ -20,7 +20,7 @@ namespace RailwayClock
             setSecondsMarkers();
         }
 
-        /*Represents a base of the clock face*/
+        /*Represents a base for the clock face*/
         Ellipse backgroundOfFaceClock = new Ellipse()
         {
             Name = "faceOfClock",
